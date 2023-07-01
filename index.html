@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio HTML</title>
+</head>
+<body>
+    <h1 id="start">Primeiros passos com HTML</h1>
+    <hr>
+    <h2>Índice</h2>
+    <ul>
+        <li ><a href="#indice1">O surgimento dos computadores e da internet</a></li>
+        <ul>
+            <li><a href="#indice1">Introdução</a></li>
+            <li><a href="#gen1">Primeira geração</a></li>
+            <li><a href="#gen2">Segunda geração</a></li>
+            <li><a href="#gen3">Terceira geração</a></li>
+            <li><a href="#gen4">Quarta geração</a></li>
+        </ul>
+        <li><a href="#proglang">Linguagens de Programação</a></li>
+        <li><a href="#client">Client</a></li>
+        <ul>
+            <li><a href="#client">O que é "Client"?</a></li>
+            <li><a href="#clientlang">Linguagens Client-side</a></li>
+        </ul>
+        <li><a href="#server">Server</a></li>
+        <ul>
+            <li><a href="#server">O que é "Server"?</a></li>
+            <li><a href="#servertype">Tipos de servidores</a></li>
+            <li><a href="serverlang">Linguagens Server-side</a></li>
+        </ul>
+        <li><a href="#notes">Notas</a></li>
+        <li><a href="#references">Referências bibliográficas</a></li>
+    </ul>
+    <h2 id="indice1">O surgimento dos computadores e da internet</h2>
+    <h3>Introdução</h3>
+    <p>Ao longo das eras, foi necessário para  a humanidade trabalhar com contas e cálculos cade vez maiores que necessitavam de cada vez mais trabalho, e com isso a humanidade desenvolveu e aperfeiçoou ferramentas cada vez mais complexas para a resolução desses cálculos. Desde a antiguidade já se ouve falar de máquinas que ajudam a calcular desde algebra simples, até previsões astronômicas, pórem só mais recentemente houve um grande avanço dessas "calculadoras" levando o ser humano à uma nova etapa tecnológica.</p>
+    <p>A seguir são apresentadas as 4 gerações as quais foram divididas segundo seus respectivos avanços significativos:</p>
+    <h3 id="gen1">Primeira geração</h3>
+    <p>A primeira geração de computadores foi caracterizada por máquinas de grandes dimensões que funcionavam por meio de circuitos e válvulas eletrônicas que consumiam uma imensa quantidade energética e tinha um uso restrito.</p>
+    <p>O primeiro deles foi o <abbr title="Eletronic Numerical Integrator and Computer">ENIAC</abbr><a href="#note1"><sup>1</sup></a>, que começou a ser desenvolvido em 1943.</p>
+    <img src="imagens/1024px-ENIAC_Penn1.jpg" alt="Foto do ENIAC">
+    <h3 id="gen2">Segunda geração</h3>
+    <p>A segunda geração foi caracterizada pela substituição das válvulas por transistores, tornando os novos computadores<sub>2</sub> mais rápidos, eficientes, mais leves e baratos. A partir desta geração alguns modelos já começaram a ser usados comercialmente.</p>
+    <h3 id="gen3">Terceira geração</h3>
+    <p>A terceira geração teve início em 1965, quandos os transistores foram substituídos por <abbr title="Circuitos integrados">CIs</abbr>, tornando os ainda menor e mais rápidos. Nesta geração também ocorre o uso dos primeiros <abbr title="Personal Computers">PCs</abbr>.</p>
+    <h3>Quarta geração</h3>
+    <p>Finalmente chegamos na quarta geração, a geração atual<a href="#note3"><sub>3</sub></a>, onde são incluídos os microprocessadores, tornando os computadores mais rápidos, menores e eficientes.</p>
+    <p>Se populariza ainda mais os PCs, tornando os computadores mais comuns no dia-a-dia da população. </p>
+    <p>Nesta geração as máquinas evoluem a uma rápida taxa, e cada vez mais o ser humano os utiliza para suas atividades. Ocorre assim a democratização da internet e suas informações.</p>
+    <h2 id="proglang">Linguagens de Programação</h2>
+    <img src="imagens/linguagens_programacao.png" alt="ilustração das linguagens de programação">
+    <p>segundo o site <a href="https://www.napratica.org.br" target="_blank" rel="external" title="Ir para o site napratica.org">napratica.org</a>, linguagem de programação é:</p>
+    <blockquote cite="https://www.napratica.org.br/linguagem-de-programacao/">A expressão se refere a um conjunto de regras e instruções que um programador constrói para gerar programas e softwares que serão processados por um computador, dispositivo móvel ou outro equipamento. </blockquote>
+    <p>Sempre que interagimos com um computador, estamos interagindo com seu software, que é sua parte lógica, e por trás desse software há uma ou mais linguagens de programação que foram utilizadas para estruturar esse programa. Também os sites são formados por linguagens, porém algumas delas <strong>não</strong> são de programação, como no caso do HTML e do CSS que são linguagens de marcação e estilo respectivamente. Ao decorrer do site vamos conhecer mais como algumas linguagens estão presentes nos sites em que acessamos e também iremos var mais de HTML.</p>
+    <h2 id="client">Client</h2>
+    <h3 >O que é "Client"?</h3>
+    <p>Quando falamos de programação, o termo <u>client</u>, as vezes chamado também de front-end, se refere ao usuário, logo quando falamos de <u>client-side</u> estamos nos referindo ao que acontece no programa do lado do cliente. Ou seja, client-side é a parte em que o usuário do software usa para interagir com os mecanismos e visuais do site. </p>
+    <h3 id="clientlang">Linguagens Client-side</h3>
+    <ul>
+    <li><abbr title="Hypertext markup language">HTML</abbr></li>
+    <li><abbr title="Cascading Style Sheets">CSS</abbr></li>
+    <li>Javascript</li>
+    </ul>
+    <h2 id="server">Server</h2>
+    <h3>O que é "Server"?</h3>
+    <p>Já o "Server", ou também referido como back-end, é a parte do servidor, onde ocorrem os acessos às databases e ao próprio site. É com ele que o lado do client interage para enviar e receber informações ao usuário. É, geralmente, uma máquina robusta feita para ficar ligada por dias sem apresentar falhas.</p>
+    <h3 id="servertype">Tipos de servidores</h3>
+    <p>Há diversos tipos de servidores, cada um com sua funcionalidade própria, aqui apresento alguns deles para que o leitor posso pesquisar mais sobre:</p>
+    <ul>
+        <li>Proxy</li>
+        <li>Firewall</li>
+        <li><abbr title="Domain Name System/Sistema de nome de domínio">DNS</abbr></li>
+        <li>Database</li>
+        <li>Webserver</li>
+        <li>Email</li>
+    </ul>
+    <h3 id="serverlang">Linguagens Server-side</h3>
+    <ul>
+        <li>Javascript</li>
+        <li><abbr title="Hypertext Preprocessor">PHP</abbr></li>
+        <li>Python</li>
+        <li>Ruby</li>
+        <li>Dentre outras...</li>
+    </ul>
+    <h2>HTML</h2>
+    <p>agora falaremos do HTML e suas tags. Apresentarei aqui a estrutura básica do HTML, e algumas tags juntas as suas funcões, pórem serei breve neste artigo, então, se quiser aprofundar mais, recomendo buscar informações na <a href="" target="_blank">W3school</a>. </p>
+    <h2 id="notes">Notas</h2>
+    <ol>
+        <li id="note1">Alguns afirmar que o primeiro computador foi o MARK I, mas vale notar que esse era apenas eletromecânico.</li>
+        <li id="note2">O computador foi acompanhando a evolução das diversas ciências, por isso não há um único inventor</li>
+        <li id="note3">Alguns estudiosos acrescentam a quinta geração.</li>
+
+    </ol>
+    <h2 id="references">Referências bibliográficas</h2>
+    https://www.todamateria.com.br/historia-e-evolucao-dos-computadores/
+    https://pt.wikipedia.org/wiki/ENIAC
+    https://pt.wikipedia.org/wiki/Segunda_gera%C3%A7%C3%A3o_de_computadores
+    https://pt.wikipedia.org/wiki/Terceira_gera%C3%A7%C3%A3o_de_computadores
+
+</body>
+</html>
